@@ -51,6 +51,12 @@ notes.txt
 
 # TypeScript
 tsout/
+# MetaMask configuration
+.metamaskrc
+.metamaskprodrc
+
+# TypeScript
+tsout/
 
 # Test results
 test-results/
