@@ -45,6 +45,10 @@ module.exports = {
         blankLine: 'always',
         prev: 'directive',
         next: '*',
+            // It is common to import modules without assigning them to variables in
+    // a browser context. For instance, we may import polyfills which change
+    // global variables, or we may import stylesheets.
+    'import/no-unassigned-import': 'off',
       },
       {
         blankLine: 'any',
