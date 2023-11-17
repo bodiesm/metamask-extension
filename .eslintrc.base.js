@@ -5,7 +5,12 @@ module.exports = {
     '@metamask/eslint-config',
     path.resolve(__dirname, '.eslintrc.jsdoc.js'),
   ],
-
+module.exports = {
+  extends: [
+    '@metamask/eslint-config',
+    path.resolve(__dirname, '.eslintrc.jsdoc.js'),
+  ],
+  
   globals: {
     document: 'readonly',
     window: 'readonly',
